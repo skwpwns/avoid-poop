@@ -16,6 +16,11 @@ fun main() {
     board.printOutline()
     println("\n")
     board.gmaeoverview()
+    val key = System.`in`.read()
+    if (key != null) {
+        print("GAME START")
+    }
+    board.printOutline()
 
 }
 class board {
